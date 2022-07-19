@@ -19,6 +19,18 @@ path = "src/fib.rs"
 name = "coin"
 path = "src/coin.rs"
 
+[[bin]]
+name = "enc"
+path = "src/caeser_enc.rs"
+
+[[bin]]
+name = "enc2"
+path = "src/caeser_enc_2.rs"
+
+[[bin]]
+name = "prime100"
+path = "src/prime100.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
