@@ -31,6 +31,14 @@ path = "src/caeser_enc_2.rs"
 name = "prime100"
 path = "src/prime100.rs"
 
+[[bin]]
+name = "kakugen"
+path = "src/kakugen.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "pow"
+path = "src/pow_1234_5678.rs"
+
 [dependencies]
+num-bigint = "0.4"
