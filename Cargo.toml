@@ -48,6 +48,10 @@ path = "src/dice.rs"
 name = "range"
 path = "src/range.rs"
 
+[[bin]]
+name = "maze"
+path = "src/maze.rs"
+
 [dependencies]
 num-bigint = "0.4"
 rand = "0.8.0"
