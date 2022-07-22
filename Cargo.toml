@@ -40,5 +40,14 @@ path = "src/kakugen.rs"
 name = "pow"
 path = "src/pow_1234_5678.rs"
 
+[[bin]]
+name = "dice"
+path = "src/dice.rs"
+
+[[bin]]
+name = "range"
+path = "src/range.rs"
+
 [dependencies]
 num-bigint = "0.4"
+rand = "0.8.0"

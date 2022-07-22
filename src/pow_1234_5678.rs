@@ -6,9 +6,7 @@ fn main() {
 
 fn fail() {
     let base: u128 = 1234;
-
     let result = base.pow(5678);
-
     println!("{}", result);
 }
 
