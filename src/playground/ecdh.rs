@@ -1,8 +1,9 @@
-use k256::ecdh::{EphemeralSecret, SharedSecret};
+use k256::ecdh::EphemeralSecret;
 use k256::elliptic_curve::sec1::ToEncodedPoint;
 use k256::{EncodedPoint, PublicKey};
 use rand_core::OsRng; // requires 'getrandom' feature
 
+#[allow(dead_code)]
 pub fn ecdh_key_exchange() {
     // Alice の秘密鍵、公開鍵を作成
     let alice_secret = EphemeralSecret::random(&mut OsRng);

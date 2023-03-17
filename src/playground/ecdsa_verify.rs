@@ -1,5 +1,6 @@
 use k256::ecdsa::{signature::Verifier, Signature, VerifyingKey};
 
+#[allow(dead_code)]
 pub fn verify_ecdsa() {
     let public_key = hex::decode("04432d675246b45c0bfa1dbc26235614e3e6b393aed6c161c81af3245ce5da425cada512ff09b6d117dc8c14affbc22a16024e2f75c41231336cacb17b7a65498b").unwrap();
     let verify_key = VerifyingKey::from_sec1_bytes(&public_key).unwrap();
